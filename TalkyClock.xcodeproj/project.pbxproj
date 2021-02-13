@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C9AA3FE25D566B400004610 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9AA3FD25D566B400004610 /* AlarmModel.swift */; };
+		8C9AA40025D5688400004610 /* PropertyReflectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9AA3FF25D5688400004610 /* PropertyReflectable.swift */; };
+		8CD28ACB25D42FB5007FB08B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD28ACA25D42FB5007FB08B /* AppDelegate.swift */; };
+		8CD28ACD25D42FB6007FB08B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD28ACC25D42FB6007FB08B /* SceneDelegate.swift */; };
+		8CD28ACF25D42FB6007FB08B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD28ACE25D42FB6007FB08B /* HomeViewController.swift */; };
+		8CD28AD225D42FB6007FB08B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD28AD025D42FB6007FB08B /* Main.storyboard */; };
+		8CD28AD425D42FB8007FB08B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD28AD325D42FB8007FB08B /* Assets.xcassets */; };
+		8CD28AD725D42FB8007FB08B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD28AD525D42FB8007FB08B /* LaunchScreen.storyboard */; };
+		8CD28AE225D42FB9007FB08B /* TalkyClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD28AE125D42FB9007FB08B /* TalkyClockTests.swift */; };
+		8CD28AED25D42FB9007FB08B /* TalkyClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD28AEC25D42FB9007FB08B /* TalkyClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD28ADE25D42FB8007FB08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD28ABF25D42FB5007FB08B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD28AC625D42FB5007FB08B;
+			remoteInfo = TalkyClock;
+		};
+		8CD28AE925D42FB9007FB08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD28ABF25D42FB5007FB08B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD28AC625D42FB5007FB08B;
+			remoteInfo = TalkyClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CBF994D25D6D0CC0010351F /* TalkyClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TalkyClock.entitlements; sourceTree = "<group>"; };
+		8C9AA3FD25D566B400004610 /* AlarmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		8C9AA3FF25D5688400004610 /* PropertyReflectable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyReflectable.swift; sourceTree = "<group>"; };
+		8CD28AC725D42FB5007FB08B /* TalkyClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkyClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD28ACA25D42FB5007FB08B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CD28ACC25D42FB6007FB08B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8CD28ACE25D42FB6007FB08B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8CD28AD125D42FB6007FB08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CD28AD325D42FB8007FB08B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CD28AD625D42FB8007FB08B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CD28AD825D42FB8007FB08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD28ADD25D42FB8007FB08B /* TalkyClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkyClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD28AE125D42FB9007FB08B /* TalkyClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkyClockTests.swift; sourceTree = "<group>"; };
+		8CD28AE325D42FB9007FB08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD28AE825D42FB9007FB08B /* TalkyClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkyClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD28AEC25D42FB9007FB08B /* TalkyClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkyClockUITests.swift; sourceTree = "<group>"; };
+		8CD28AEE25D42FB9007FB08B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD28AC425D42FB5007FB08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD28ADA25D42FB8007FB08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD28AE525D42FB9007FB08B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD28ABE25D42FB5007FB08B = {
+			isa = PBXGroup;
+			children = (
+				8CD28AC925D42FB5007FB08B /* TalkyClock */,
+				8CD28AE025D42FB9007FB08B /* TalkyClockTests */,
+				8CD28AEB25D42FB9007FB08B /* TalkyClockUITests */,
+				8CD28AC825D42FB5007FB08B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD28AC825D42FB5007FB08B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD28AC725D42FB5007FB08B /* TalkyClock.app */,
+				8CD28ADD25D42FB8007FB08B /* TalkyClockTests.xctest */,
+				8CD28AE825D42FB9007FB08B /* TalkyClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD28AC925D42FB5007FB08B /* TalkyClock */ = {
+			isa = PBXGroup;
+			children = (
+				5CBF994D25D6D0CC0010351F /* TalkyClock.entitlements */,
+				8CD28ACA25D42FB5007FB08B /* AppDelegate.swift */,
+				8CD28ACC25D42FB6007FB08B /* SceneDelegate.swift */,
+				8CD28ACE25D42FB6007FB08B /* HomeViewController.swift */,
+				8C9AA3FF25D5688400004610 /* PropertyReflectable.swift */,
+				8C9AA3FD25D566B400004610 /* AlarmModel.swift */,
+				8CD28AD025D42FB6007FB08B /* Main.storyboard */,
+				8CD28AD325D42FB8007FB08B /* Assets.xcassets */,
+				8CD28AD525D42FB8007FB08B /* LaunchScreen.storyboard */,
+				8CD28AD825D42FB8007FB08B /* Info.plist */,
+			);
+			path = TalkyClock;
+			sourceTree = "<group>";
+		};
+		8CD28AE025D42FB9007FB08B /* TalkyClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD28AE125D42FB9007FB08B /* TalkyClockTests.swift */,
+				8CD28AE325D42FB9007FB08B /* Info.plist */,
+			);
+			path = TalkyClockTests;
+			sourceTree = "<group>";
+		};
+		8CD28AEB25D42FB9007FB08B /* TalkyClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD28AEC25D42FB9007FB08B /* TalkyClockUITests.swift */,
+				8CD28AEE25D42FB9007FB08B /* Info.plist */,
+			);
+			path = TalkyClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD28AC625D42FB5007FB08B /* TalkyClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD28AF125D42FB9007FB08B /* Build configuration list for PBXNativeTarget "TalkyClock" */;
+			buildPhases = (
+				8CD28AC325D42FB5007FB08B /* Sources */,
+				8CD28AC425D42FB5007FB08B /* Frameworks */,
+				8CD28AC525D42FB5007FB08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkyClock;
+			productName = TalkyClock;
+			productReference = 8CD28AC725D42FB5007FB08B /* TalkyClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CD28ADC25D42FB8007FB08B /* TalkyClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD28AF425D42FB9007FB08B /* Build configuration list for PBXNativeTarget "TalkyClockTests" */;
+			buildPhases = (
+				8CD28AD925D42FB8007FB08B /* Sources */,
+				8CD28ADA25D42FB8007FB08B /* Frameworks */,
+				8CD28ADB25D42FB8007FB08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD28ADF25D42FB8007FB08B /* PBXTargetDependency */,
+			);
+			name = TalkyClockTests;
+			productName = TalkyClockTests;
+			productReference = 8CD28ADD25D42FB8007FB08B /* TalkyClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CD28AE725D42FB9007FB08B /* TalkyClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD28AF725D42FB9007FB08B /* Build configuration list for PBXNativeTarget "TalkyClockUITests" */;
+			buildPhases = (
+				8CD28AE425D42FB9007FB08B /* Sources */,
+				8CD28AE525D42FB9007FB08B /* Frameworks */,
+				8CD28AE625D42FB9007FB08B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD28AEA25D42FB9007FB08B /* PBXTargetDependency */,
+			);
+			name = TalkyClockUITests;
+			productName = TalkyClockUITests;
+			productReference = 8CD28AE825D42FB9007FB08B /* TalkyClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD28ABF25D42FB5007FB08B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "nav brar";
+				TargetAttributes = {
+					8CD28AC625D42FB5007FB08B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8CD28ADC25D42FB8007FB08B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8CD28AC625D42FB5007FB08B;
+					};
+					8CD28AE725D42FB9007FB08B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8CD28AC625D42FB5007FB08B;
+					};
+				};
+			};
+			buildConfigurationList = 8CD28AC225D42FB5007FB08B /* Build configuration list for PBXProject "TalkyClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD28ABE25D42FB5007FB08B;
+			productRefGroup = 8CD28AC825D42FB5007FB08B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD28AC625D42FB5007FB08B /* TalkyClock */,
+				8CD28ADC25D42FB8007FB08B /* TalkyClockTests */,
+				8CD28AE725D42FB9007FB08B /* TalkyClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD28AC525D42FB5007FB08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD28AD725D42FB8007FB08B /* LaunchScreen.storyboard in Resources */,
+				8CD28AD425D42FB8007FB08B /* Assets.xcassets in Resources */,
+				8CD28AD225D42FB6007FB08B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD28ADB25D42FB8007FB08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD28AE625D42FB9007FB08B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD28AC325D42FB5007FB08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9AA3FE25D566B400004610 /* AlarmModel.swift in Sources */,
+				8C9AA40025D5688400004610 /* PropertyReflectable.swift in Sources */,
+				8CD28ACF25D42FB6007FB08B /* HomeViewController.swift in Sources */,
+				8CD28ACB25D42FB5007FB08B /* AppDelegate.swift in Sources */,
+				8CD28ACD25D42FB6007FB08B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD28AD925D42FB8007FB08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD28AE225D42FB9007FB08B /* TalkyClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD28AE425D42FB9007FB08B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD28AED25D42FB9007FB08B /* TalkyClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CD28ADF25D42FB8007FB08B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD28AC625D42FB5007FB08B /* TalkyClock */;
+			targetProxy = 8CD28ADE25D42FB8007FB08B /* PBXContainerItemProxy */;
+		};
+		8CD28AEA25D42FB9007FB08B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD28AC625D42FB5007FB08B /* TalkyClock */;
+			targetProxy = 8CD28AE925D42FB9007FB08B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CD28AD025D42FB6007FB08B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD28AD125D42FB6007FB08B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CD28AD525D42FB8007FB08B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD28AD625D42FB8007FB08B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CD28AEF25D42FB9007FB08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CD28AF025D42FB9007FB08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD28AF225D42FB9007FB08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TalkyClock/TalkyClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59D9MQZT9F;
+				INFOPLIST_FILE = TalkyClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.InfluenceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD28AF325D42FB9007FB08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TalkyClock/TalkyClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59D9MQZT9F;
+				INFOPLIST_FILE = TalkyClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.InfluenceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8CD28AF525D42FB9007FB08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TalkyClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.TalkyClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkyClock.app/TalkyClock";
+			};
+			name = Debug;
+		};
+		8CD28AF625D42FB9007FB08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TalkyClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.TalkyClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkyClock.app/TalkyClock";
+			};
+			name = Release;
+		};
+		8CD28AF825D42FB9007FB08B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TalkyClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.TalkyClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkyClock;
+			};
+			name = Debug;
+		};
+		8CD28AF925D42FB9007FB08B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TalkyClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nav.TalkyClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkyClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD28AC225D42FB5007FB08B /* Build configuration list for PBXProject "TalkyClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD28AEF25D42FB9007FB08B /* Debug */,
+				8CD28AF025D42FB9007FB08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD28AF125D42FB9007FB08B /* Build configuration list for PBXNativeTarget "TalkyClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD28AF225D42FB9007FB08B /* Debug */,
+				8CD28AF325D42FB9007FB08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD28AF425D42FB9007FB08B /* Build configuration list for PBXNativeTarget "TalkyClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD28AF525D42FB9007FB08B /* Debug */,
+				8CD28AF625D42FB9007FB08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD28AF725D42FB9007FB08B /* Build configuration list for PBXNativeTarget "TalkyClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD28AF825D42FB9007FB08B /* Debug */,
+				8CD28AF925D42FB9007FB08B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD28ABF25D42FB5007FB08B /* Project object */;
+}
